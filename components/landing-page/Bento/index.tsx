@@ -37,7 +37,7 @@ const Bento = (): JSX.Element => {
   return (
     <div className="mx-auto my-20 max-w-6xl px-4 py-10">
       <div>
-        <h2 className="text-balance text-center text-5xl font-medium md:text-7xl">
+        <h2 className="text-balance text-center text-5xl  font-medium text-white md:text-7xl">
           The new
         </h2>
         <em className="mx-auto flex items-center justify-center bg-gradient-to-b from-yellow-100 to-yellow-500 bg-clip-text text-center text-5xl font-medium not-italic text-transparent md:text-7xl">
@@ -59,7 +59,7 @@ const Bento = (): JSX.Element => {
               ${item.wide ? "md:col-span-2" : "md:col-span-1"}`}
             key={index}
           >
-            <h3 className="text-2xl">{item.title}</h3>
+            <h3 className="text-2xl text-white ">{item.title}</h3>
             <div className="text-balance text-slate-300">
               <p>{item.body}</p>
             </div>

@@ -12,7 +12,7 @@ const CallToAction = (): JSX.Element => {
         <PlainLogo />
       </div>
 
-      <div className="mt-8  text-balance text-center text-5xl">
+      <div className="mt-8 text-balance  text-center text-5xl text-white">
         <p>Start building for free</p>
       </div>
 

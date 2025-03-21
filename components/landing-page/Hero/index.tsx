@@ -68,7 +68,7 @@ const Hero = ({ session }: any) => {
       <div className="relative mt-8 text-center" ref={container}>
         <StarGrid />
 
-        <h1 className="hero__heading text-balance text-5xl font-medium opacity-0 md:text-[66px]">
+        <h1 className="hero__heading text-balance text-5xl font-medium text-white opacity-0 md:text-[66px]">
           RedShop Virtual Shopping Assistant
         </h1>
 
