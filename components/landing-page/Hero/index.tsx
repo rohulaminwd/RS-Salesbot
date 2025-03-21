@@ -85,10 +85,10 @@ const Hero = ({ session }: any) => {
 
         <div className="hero__image glass-container mt-16 w-fit opacity-0">
           <div className="hero__glow absolute inset-0 -z-10 bg-blue-500/30 opacity-0 blur-2xl filter" />
-          <Image
+          <img
             src=" https://images.prismic.io/glisten-ai/ZeipqXUurf2G3K36_hero-image-squoosh.jpg?auto=format,compress&fit=max&w=3840"
-            width={5616}
-            height={3744}
+            // width={5616}
+            // height={3744}
             alt="image"
             className="rounded-lg"
             // priority

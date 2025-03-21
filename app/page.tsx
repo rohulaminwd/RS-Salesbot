@@ -7,7 +7,7 @@ export default async function Home() {
   return (
     <body
       style={{ background: "#070815" }}
-      className="gird  !bg-[#070815] text-white"
+      className="gird  !bg-[#070815] !text-white"
     >
       <LandingPage session={JSON.parse(JSON.stringify(session))} />
     </body>
