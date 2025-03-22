@@ -40,7 +40,7 @@ export default async function DashboardLayout({
               id: o.id,
               slug: o.name,
               displayName: o.display_name!,
-              logoUrl: o.branding?.logo_url,
+              logoUrl: o?.branding?.logo_url || "",
             }))}
             currentOrgId={session.user.org_id}
           />

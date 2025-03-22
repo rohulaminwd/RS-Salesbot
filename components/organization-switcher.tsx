@@ -62,7 +62,7 @@ export function OrganizationSwitcher({
         >
           <Avatar className="mr-2 size-8 rounded-sm">
             <AvatarImage
-              src={organization.logoUrl}
+              src={organization?.logoUrl || ""}
               alt={organization.displayName}
             />
             <AvatarFallback className="rounded-sm">
@@ -94,7 +94,10 @@ export function OrganizationSwitcher({
                   className="text-sm"
                 >
                   <Avatar className="mr-2 size-8 rounded-sm">
-                    <AvatarImage src={org.logoUrl} alt={org.displayName} />
+                    <AvatarImage
+                      src={org?.logoUrl || ""}
+                      alt={org.displayName}
+                    />
                     <AvatarFallback className="rounded-sm">
                       {org.displayName[0].toUpperCase()}
                     </AvatarFallback>
